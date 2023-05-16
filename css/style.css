@@ -3,3 +3,33 @@ body {
     background: rgb(238, 174, 202);
     background: radial-gradient(circle, rgba(238, 174, 202, 1) 0%, rgba(148, 187, 233, 1) 100%);
 }
+
+.todo-input {
+    width: 90%;
+    height: 40px;
+}
+
+.todo-button {
+    width: 36px;
+    height: 40px;
+    background-color: white;
+}
+
+.todo-title {
+    display: inline-block;
+    width: 86%;
+}
+
+.todo-item {
+    border-bottom: 2px solid black;
+    margin: 10px 0px;
+}
+
+.completed {
+    text-decoration: line-through;
+    opacity: 0.6;
+}
+
+.remove{
+    display: none;
+}
